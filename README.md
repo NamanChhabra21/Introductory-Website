@@ -11,6 +11,10 @@ One rule: I will not use AI to develop or enhance this website. Everything will 
 ![CSS](https://img.shields.io/badge/CSS-0%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-45%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+
+
+Check my hosted [Website](https://namanchhabra21.freedev.app/) Now!
+
 ---
 
 <p align="center">
