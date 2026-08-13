@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naman Chhabra</title>
+
+    <!--Best Seo Practice-->
+    <title>Naman Chhabra</title> 
+    <meta name="description" content="Yo CoderZ! I am Naman Chhabra, a Full Stack Developer having keen intrest in making Games, Websites, Desktop Applications and publish them to platforms like GitHub, Youtube etc.">
 
     <!-- Adding css file to the document -->
     <link rel="stylesheet" href="style.css">
 
+
+
 </head>
+
 <body>
 
     <!-- Adding Images to the Website Tutorial | You can add height too -->
-     <img width="268" src="000_Images/MyIntroWebsite/MyImage.png" alt="My Image"> 
-
-     <!-- Alt is used to display the given text on error loading image -->
-    <h1>INTRODUCTION</h1>
+     <img width="268" src="Assets/MyImage.png" alt="My Image"> <!-- alt is used to display the given text on error loading image -->
+    
+     <h1>INTRODUCTION</h1>
     <p>
         Hello My Name is Naman. I am a class 12 student. I am going to be a full Stack Developer.
         This is my First Introductry Website.
     </p>
+
     <h2>Skills I Know</h2>
-    <p>
-        <!-- - Python
-        - Javascript
-        - Database Management
-        - Desktop Applicatios -->
-        <ul>
+
+    <ul>
             <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
             <!-- li means list -->
             <li>Python</li>
             <li>Database Management</li>
             <li>Desktop Applications</li>
-        </ul>
-    </p>
+    </ul>
+
     <h2>Skill I am Working On</h2>
-    <!-- <p>
-        - Javascript
-        - HTML
-        - CSS
-        - AI Development
-    </p> -->
+    
     <ul>
         <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
         <!-- li means list -->
@@ -55,11 +52,11 @@
     <!-- Creating Tables -->
 
     <table>
-        <!-- Adding Capttion of the table -->
+        <!-- Adding Caption of the table -->
         <caption>Knowledge</caption>
         <!-- Adding TableHeading -->
         <tr>
-            <th><!-- th means TableHeading -->Skill</th>
+            <th>Skill</th> <!-- th means TableHeading -->
             <th>Experience</th>
             <th>Projects Made</th>
         </tr>
@@ -86,10 +83,56 @@
 
         
     </table>
+    
     <h3>Thank You So Much!</h3>
 
     <h5>
         Please note that this website is not completed yet. You might find random looking texts and illogical spellings :] Hehehe
     </h5>
+
+    <!-- USING FORMS FOR FEEDBACK -->
+    <h1>FEED-BACK</h1>
+    <h5>Feedback Helps me to Improve :)</h5>
+
+    <form action="post">
+        <label for="name">Enter Your Name : </label>
+        <input type="text" id="namek" name="name" placeholder="Optional">
+    
+
+    <h4>Will you visit this site again?</h4>
+    <input type="radio" id="yes" name="VisitAgain" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="VisitAgain" value="no">
+    <label for="no">No</label>
+
+    <div>
+        <!-- Ask Proffesion via select -->
+ 
+        <label for="Proffesion">Select your current Proffesion : </label>
+         <select name="Proffesion" id="Proffesion">
+            <option value="None">No Work</option>
+            <option value="Student">School Student</option>
+            <option value="College">College Student</option>
+            <option value="employee">Employee</option>
+            <option value="hiring">Hiring Developers</option>
+            <option value="boss">Boss</option>
+            <option value="other">Other</option>
+            
+            
+         </select>
+    </div>
+
+    <div>
+        <!-- checkbox for acceptance -->
+        <input type="checkbox" name="accept" id="accept" value="yes">
+        <label for="accept">I accept that I will type Funny and Useless sentences in the Feedback.</label>
+    </div>
+
+    <div>
+        <!-- Adding main feedback comment input box -->
+         <textarea name="textarea" id="textarea" rows="15" cols="75" placeholder="Enter your Feedback Here"></textarea>
+    </div>
+    </form>
+
 </body>
 </html>
