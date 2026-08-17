@@ -18,128 +18,147 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Projects</li>
+                <li>Contact</li>
+                <li>Feedback</li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Adding Images to the Website Tutorial | You can add height too -->
-    <img width="268" src="Assets/MyImage.png" alt="My Image">
-    <!-- alt is used to display the given text on error loading image -->
+    <main>
+        <!-- Adding Images to the Website Tutorial | You can add height too -->
+        <img width="268" src="Assets/MyImage.png" alt="My Image">
+        <!-- alt is used to display the given text on error loading image -->
 
-    <h1>INTRODUCTION</h1>
-    <p>
-        Hello My Name is Naman. I am a class 12 student. I am going to be a full Stack Developer.
-        This is my First Introductry Website.
-    </p>
+        <h1 id="introLabel" class="introText">INTRODUCTION</h1>
+        <p>
+            Hello My Name is Naman. I am a class 12 student. I am going to be a full Stack Developer.
+            This is my First Introductry Website.
+        </p>
 
-    <h2>Skills I Know</h2>
+        <h2>Skills I Know</h2>
 
-    <ul>
-        <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
-        <!-- li means list -->
-        <li>Python</li>
-        <li>Database Management</li>
-        <li>Desktop Applications</li>
-    </ul>
+        <ul>
+            <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
+            <!-- li means list -->
+            <li>Python</li>
+            <li>Database Management</li>
+            <li>Desktop Applications</li>
+        </ul>
 
-    <h2>Skill I am Working On</h2>
+        <h2>Skill I am Working On</h2>
 
-    <ul>
-        <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
-        <!-- li means list -->
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>AI Development</li>
-    </ul>
-
-
-
-    <!-- Creating Tables -->
-
-    <table>
-        <!-- Adding Caption of the table -->
-        <caption>Knowledge</caption>
-        <!-- Adding TableHeading -->
-        <tr>
-            <th>Skill</th> <!-- th means TableHeading -->
-            <th>Experience</th>
-            <th>Projects Made</th>
-        </tr>
-
-        <!-- Row-1 Adding Data -->
-        <tr>
-            <td>Python</td> <!-- td means Tabledata -->
-            <td>4 Years</td>
-            <td>Many</td>
-        </tr>
-
-        <!-- Row-2 -->
-        <tr>
-            <td>Javascript</td>
-            <td colspan="2">Currenty Learning</td>
-        </tr>
-
-        <!-- Row-3 -->
-        <tr>
-            <td>DataScience</td>
-            <td>6 Months</td>
-            <td>Few</td>
-        </tr>
+        <ul>
+            <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
+            <!-- li means list -->
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>AI Development</li>
+        </ul>
 
 
-    </table>
 
-    <p>Check out my <a href="https://youtube.com//@NamanChhabra21Shorts">Youtube</a> channel.</p>
+        <!-- Creating Tables -->
 
-    <h3>Thank You So Much!</h3>
+        <table>
+            <!-- Adding Caption of the table -->
+            <caption>Knowledge</caption>
+            <!-- Adding TableHeading -->
+            <tr>
+                <th>Skill</th> <!-- th means TableHeading -->
+                <th>Experience</th>
+                <th>Projects Made</th>
+            </tr>
 
-    <h5>
-        Please note that this website is not completed yet. You might find random looking texts and illogical spellings
-        :] Hehehe
-    </h5>
+            <!-- Row-1 Adding Data -->
+            <tr>
+                <td>Python</td> <!-- td means Tabledata -->
+                <td>From 2022</td>
+                <td>Many</td>
+            </tr>
 
-    <!-- USING FORMS FOR FEEDBACK -->
-    <h1>FEED-BACK</h1>
-    <h5>Feedback Helps me to Improve :)</h5>
+            <!-- Row-2 -->
+            <tr>
+                <td>Javascript</td>
+                <td colspan="2">Currenty Learning</td>
+            </tr>
 
-    <form action="post">
-        <label for="name">Enter Your Name : </label>
-        <input type="text" id="namek" name="name" placeholder="Optional">
-
-
-        <h4>Will you visit this site again?</h4>
-        <input type="radio" id="yes" name="VisitAgain" value="yes">
-        <label for="yes">Yes</label>
-        <input type="radio" id="no" name="VisitAgain" value="no">
-        <label for="no">No</label>
-
-        <div>
-            <!-- Ask Proffesion via select -->
-
-            <label for="Proffesion">Select your current Proffesion : </label>
-            <select name="Proffesion" id="Proffesion">
-                <option value="None">No Work</option>
-                <option value="Student">School Student</option>
-                <option value="College">College Student</option>
-                <option value="employee">Employee</option>
-                <option value="hiring">Hiring Developers</option>
-                <option value="boss">Boss</option>
-                <option value="other">Other</option>
+            <!-- Row-3 -->
+            <tr>
+                <td>DataScience</td>
+                <td>6 Months</td>
+                <td>Few</td>
+            </tr>
 
 
-            </select>
-        </div>
+        </table>
 
-        <div>
-            <!-- checkbox for acceptance -->
-            <input type="checkbox" name="accept" id="accept" value="yes">
-            <label for="accept">I accept that I will type Funny and Useless sentences in the Feedback.</label>
-        </div>
+        <p>Check out my <a href="https://youtube.com//@NamanChhabra21Shorts">Youtube</a> channel.</p>
 
-        <div>
-            <!-- Adding main feedback comment input box -->
-            <textarea name="textarea" id="textarea" rows="15" cols="75"
-                placeholder="Enter your Feedback Here"></textarea>
-        </div>
-    </form>
+        <h3>Thank You So Much!</h3>
+
+        <h5>
+            Please note that this website is not completed yet. You might find random looking texts and illogical
+            spellings
+            :] Hehehe
+        </h5>
+
+        <!-- USING FORMS FOR FEEDBACK -->
+        <h1>FEED-BACK</h1>
+        <h5>Feedback Helps me to Improve :)</h5>
+
+        <form action="post">
+            <label for="name">Enter Your Name : </label>
+            <input type="text" id="namek" name="name" placeholder="Optional">
+
+
+            <h4>Will you visit this site again?</h4>
+            <input type="radio" id="yes" name="VisitAgain" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="VisitAgain" value="no">
+            <label for="no">No</label>
+
+            <div>
+                <!-- Ask Proffesion via select -->
+
+                <label for="Proffesion">Select your current Proffesion : </label>
+                <select name="Proffesion" id="Proffesion">
+                    <option value="None">No Work</option>
+                    <option value="Student">School Student</option>
+                    <option value="College">College Student</option>
+                    <option value="employee">Employee</option>
+                    <option value="hiring">Hiring Developers</option>
+                    <option value="boss">Boss</option>
+                    <option value="other">Other</option>
+
+
+                </select>
+            </div>
+
+            <div>
+                <!-- checkbox for acceptance -->
+                <input type="checkbox" name="accept" id="accept" value="yes">
+                <label for="accept">I accept that I will type Funny and Useless sentences in the Feedback.</label>
+            </div>
+
+            <div>
+                <!-- Adding main feedback comment input box -->
+                <textarea name="textarea" id="textarea" rows="15" cols="75"
+                    placeholder="Enter your Feedback Here"></textarea>
+            </div>
+        </form>
+
+
+    </main>
+
+    <footer>
+        &copy; 2026 Naman Chhabra | MIT License
+    </footer>
 
 </body>
 
