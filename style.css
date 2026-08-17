@@ -1,10 +1,25 @@
+body{
+    background-color: rgb(153, 35, 35);
+}
 td{
     border: 2px solid black;
 }
 
-h1{
-    background-color: blue;
+
+
+#introLabel{
+    background-color: red;
 }
-a{
-    background-color: rgb(227, 250, 17);
+
+.introText{
+    color: rgb(217, 255, 0);
 }
+
+a:hover{
+    color: rgb(195, 0, 255);
+}
+
+a:visited{
+    color: coral;
+}
+
