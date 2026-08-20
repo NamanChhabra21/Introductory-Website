@@ -5,10 +5,20 @@ td{
     border: 2px solid black;
 }
 
+#myimg{
+    border-radius: 10px;
+}
+
 
 
 #introLabel{
     background-color: red;
+    border: 4px solid rgb(104, 0, 0);
+    font-family: "cursive";
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
 }
 
 .introText{
@@ -21,5 +31,19 @@ a:hover{
 
 a:visited{
     color: coral;
+}
+#tabs{
+    background-color: black;
+    color: wheat;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+}
+
+.heading{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+    
 }
 
