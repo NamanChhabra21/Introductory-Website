@@ -13,6 +13,11 @@
     <!-- Adding css file to the document -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+
 
 
 </head>
@@ -20,7 +25,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul id="tabs">
                 <li>Home</li>
                 <li>Projects</li>
                 <li>Contact</li>
@@ -30,17 +35,19 @@
     </header>
 
     <main>
-        <!-- Adding Images to the Website Tutorial | You can add height too -->
-        <img width="268" src="Assets/MyImage.png" alt="My Image">
-        <!-- alt is used to display the given text on error loading image -->
+        
 
         <h1 id="introLabel" class="introText">INTRODUCTION</h1>
+
+        <!-- Adding Images to the Website Tutorial | You can add height too -->
+        <img id="myimg" width="268" src="Assets/MyImage.png" alt="My Image">
+        <!-- alt is used to display the given text on error loading image -->
         <p>
             Hello My Name is Naman. I am a class 12 student. I am going to be a full Stack Developer.
             This is my First Introductry Website.
         </p>
 
-        <h2>Skills I Know</h2>
+        <h2 class="heading">Skills I Know</h2>
 
         <ul>
             <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
@@ -50,7 +57,7 @@
             <li>Desktop Applications</li>
         </ul>
 
-        <h2>Skill I am Working On</h2>
+        <h2 class="heading">Skill I am Working On</h2>
 
         <ul>
             <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
@@ -109,12 +116,12 @@
         </h5>
 
         <!-- USING FORMS FOR FEEDBACK -->
-        <h1>FEED-BACK</h1>
+        <h1 id="feedback" class="heading">FEED-BACK</h1>
         <h5>Feedback Helps me to Improve :)</h5>
 
         <form action="post">
             <label for="name">Enter Your Name : </label>
-            <input type="text" id="namek" name="name" placeholder="Optional">
+            <input type="text" id="name" name="name" placeholder="Optional">
 
 
             <h4>Will you visit this site again?</h4>
@@ -162,4 +169,4 @@
 
 </body>
 
-</html>
+</html>>
