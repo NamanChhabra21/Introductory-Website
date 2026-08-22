@@ -1,49 +1,104 @@
-body{
-    background-color: rgb(153, 35, 35);
+*{
+    color: white;
+  
 }
-td{
+
+p{
+    display: inline-flex;
+    font-size: 5vw;
+}
+body {
+    background-color: black;
+}
+
+td {
     border: 2px solid black;
 }
 
-#myimg{
+#myimg {
+    width: 30vw;
     border-radius: 10px;
+    border:3px solid rgb(255, 0, 80);
+    box-shadow: 4px 2px 20px 2px rgb(255, 0, 0);
+    display: block;
+    margin-left: auto;
+    position: relative;
+    right: 2vw;
+    
+    
 }
 
 
 
-#introLabel{
-    background-color: red;
-    border: 4px solid rgb(104, 0, 0);
-    font-family: "cursive";
-    font-style: oblique;
-    text-align: center;
-    margin-bottom: 0px;
+#introLabel {
+    color: rgb(0, 195, 255);
+    text-shadow: 0px 0px 20px rgb(0, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 4px solid rgb(3, 184, 255);
+    box-shadow: 0px 0px 20px rgb(0, 225, 255);
+    font-family: "Mountains of Christmas", serif;
+    text-align: left;
     letter-spacing: 4px;
+    display: inline-flex;
+    font-size: 3vw;
+    margin-top: 10;
+    position: relative;
+    top: 10vw;
+    left: 1vw;
+    
+    
 }
 
-.introText{
-    color: rgb(217, 255, 0);
-}
 
-a:hover{
+
+a:hover {
     color: rgb(195, 0, 255);
 }
 
-a:visited{
+a:visited {
     color: coral;
 }
-#tabs{
-    background-color: black;
+
+#tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    outline: 2px solid rgb(0, 255, 255);
+    outline-offset: 1px;
+    background-color: rgba(0, 0, 0, 0.315);
     color: wheat;
+    height: 5vh;
     border-radius: 5px;
-    /* box-sizing: border-box; */
+    text-shadow: 0px 0px 10px rgb(11, 157, 241) ;
+    border: 2px solid rgb(1, 250, 250);
+    box-shadow: 0px 0px 20px rgb(2, 141, 255);
+    font-size: 2.25vw;
+    
 }
 
-.heading{
+.heading {
     font-family: "Mountains of Christmas", serif;
     font-weight: 1000;
     font-style: normal;
     font-size: 30px;
-    
+
+}
+
+#textarea {
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+    font-size: 1.35em;
+}
+
+#introMAIN {
+    font-size: 2.5vw;
+    margin: 0px;
+    padding: 0px;
+    width: 52vw;
+    position: relative;
+    left: 2vw;
+    top: -40vw;
 }
 
