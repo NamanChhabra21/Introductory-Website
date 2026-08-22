@@ -9,7 +9,7 @@
     <title>Naman Chhabra</title>
 
     <meta name="description"
-        content="Yo CoderZ! I am Naman Chhabra, a Full Stack Developer having keen intrest in making Games, Websites, Desktop Applications and publish them to platforms like GitHub, Youtube etc.">
+        content="Yo CoderZ! I am Naman Chhabra, a Full Stack Developer having keen interest in making Games, Websites, Desktop Applications and publish them to platforms like GitHub, Youtube etc.">
 
     <!-- Adding css file to the document -->
     <link rel="stylesheet" href="style.css">
@@ -26,151 +26,169 @@
 
 <body>
     <header>
-        <nav>
-            <ul id="tabs">
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Contact</li>
-                <li>Feedback</li>
-            </ul>
+        <nav id="navbar">
+            
+            <div id="logo">
+                <img src="https://yt3.ggpht.com/ADUpyhl9MsV2wPtIMjDv-h_CWImZnwGyREO5IblKXaHFaHFcGlOwWV_slps9XMsB3P93aRex=s88-c-k-c0x00ffffff-no-rj"
+                    alt="logo" >
+            </div>
+            <div id="tabs-container">
+
+
+                <ul id="tabs">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="Feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+
+            
         </nav>
     </header>
 
     <main>
 
+        <div class="intro-section">
 
-        <h1 id="introLabel" class="introtab">INTRODUCTION</h1>
+            <p id="introMAIN">
+                Hello! This is Naman Chhabra, a Full Stack Developer having keen interest in making Games, Websites,
+                Desktop
+                Applications and publish them to platforms like GitHub, Youtube etc. I have been coding since 2022
+                and
+                have
+                made many projects in Python, JavaScript and HTML/CSS. I am currently learning AI Development and
+                Web
+                Development.
+            </p>
 
-        <!-- Adding Images to the Website Tutorial | You can add height too -->
-        <img id="myimg" class="introtab" width="268" src="Assets/MyImage.png" alt="My Image">
-        <!-- alt is used to display the given text on error loading image -->
-        <p id="introMAIN"> 
-            Hello My Name is Naman. I am a class 12 student. I am going to be a full Stack Developer.
-            This is my First Introductry Website.
-        </p>
+            <!-- Adding Images to the Website Tutorial | You can add height too -->
+            <img id="myimg" width="268" src="Assets/MyImage.png" alt="Naman Chhabra Image" />
+            <!-- alt is used to display the given text on error loading image -->
+            <div class="intro-text">
+            </div>
+        </div>
 
-        <h2 class="heading">Skills I Know</h2>
+        <h2 class="heading">Skills</h2>
 
-        <ul class="basictext"></ul>
+        <ul id="skills-list" class="basictext image-list">
             <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
             <!-- li means list -->
-            <li>Python</li>
-            <li>Database Management</li>
-            <li>Desktop Applications</li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=YX03OUiHE3rz&format=png" alt="python image">
+                <span>Python</span>
+            </li>
+            <li>
+                <img src="https://www.gstatic.com/devrel-devsite/prod/v8c5e9c8e09d4f0c961905721a95aa2027138cb55ec6e1fa60fd7aaa3726ca05f/firebase/images/lockup.svg"
+                    alt="database image" width="100" height="80">
+                <span>Database</span>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=rrOQ-KaytMBx&format=png&color=000000" alt="desktop image">
+                <span>Desktop Apps</span>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=tGvHBPJaKqEd&format=png&color=000000"
+                    alt="javascript image">
+                <span>JavaScript</span>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=20909&format=png&color=000000" alt="html image">
+                <span>HTML</span>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=3BTBsJs5myRy&format=png" alt="css image">
+                <span>CSS</span>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=114331&format=png&color=000000" alt="editing image">
+                <span>Editing</span>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=80&id=HQPitXKj0IMC&format=png&color=000000"
+                    alt="presentation image">
+                <span>Presentation</span>
+            </li>
         </ul>
 
-        <h2 class="heading">Skill I am Working On</h2>
+        <div>
+            <h1 class="heading">Areas of Interest</h1>
+            <ul class="basictext image-list">
 
-        <ul class="basictext"></ul>
-            <!-- ul means Unordered list. Use ol(ordered list) if you want numbering -->
-            <!-- li means list -->
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>AI Development</li>
-        </ul>
+                <li>
+                    <img src="https://www.pygame.org/docs/_static/pygame_tiny.png" alt="pygame image" width="140"
+                        height="50">
+                    <span>Game Development</span>
+                </li>
 
+                <li>
+                    <img src="https://img.icons8.com/?size=80&id=5zuVgEwv1rTz&format=png&color=000000"
+                        alt="web-development image">
+                    <span>Web Development</span>
+                </li>
 
-
-        <!-- Creating Tables -->
-
-        <table>
-            <!-- Adding Caption of the table -->
-            <caption>Knowledge</caption>
-            <!-- Adding TableHeading -->
-            <tr class="basictext"></tr>
-                <th>Skill</th> <!-- th means TableHeading -->
-                <th>Experience</th>
-                <th>Projects Made</th>
-            </tr>
-
-            <!-- Row-1 Adding Data -->
-            <tr class="basictext"></tr>
-                <td>Python</td> <!-- td means Tabledata -->
-                <td>From 2022</td>
-                <td>Many</td>
-            </tr>
-
-            <!-- Row-2 -->
-            <tr>
-                <td>Javascript</td>
-                <td colspan="2">Currenty Learning</td>
-            </tr>
-
-            <!-- Row-3 -->
-            <tr>
-                <td>DataScience</td>
-                <td>6 Months</td>
-                <td>Few</td>
-            </tr>
+                <li>
+                    <img src="https://img.icons8.com/?size=80&id=103790&format=png&color=000000" alt="AI image">
+                    <span>Artificial Intelligence</span>
+                </li>
 
 
-        </table>
+            </ul>
+        </div>
+            <h1 class="heading">Find Me On</h1>
+            <ul class="basictext image-list">
 
-        <p class="basictext"></p class="basictext">Check out my <a href="https://youtube.com//@NamanChhabra21Shorts">Youtube</a> channel.</p>
+                <li>
+                    <a href="https://github.com/NamanChhabra21">
+                        <img src="https://img.icons8.com/?size=80&id=lkh3AbJLmFpp&format=png&color=000000" alt="GitHub">
+                    </a>
+                    <span>GitHub</span>
+                </li>
 
-        <h3>Thank You So Much!</h3>
+                <li>
+                    <a href="https://www.youtube.com/@namanchhabra21shorts">
+                        <img src="https://img.icons8.com/?size=80&id=V5rVzStr5qA9&format=png&color=000000" alt="Youtube">
+                    </a>
+                    <span>Youtube</span>
+                </li>
 
-        <h5>
-            Please note that this website is not completed yet. You might find random looking texts and illogical
-            spellings
-            :] Hehehe
-        </h5>
+                <li>
+                    <a href="https://www.google.com/search?q=NamanChhabra21+github">
+                        <img src="https://img.icons8.com/?size=80&id=V5cGWnc9R4xj&format=png&color=000000" alt="Search">
+                    </a>
+                    <span>Google "NamanChhabra21"</span>
+                </li>
 
-        <!-- USING FORMS FOR FEEDBACK -->
-        <h1 id="feedback" class="heading">FEED-BACK</h1>
-        <h5>Feedback Helps me to Improve :)</h5>
-
-        <form action="post">
-            <label for="name">Enter Your Name : </label>
-            <input type="text" id="name" name="name" placeholder="Optional">
-
-
-            <h4>Will you visit this site again?</h4>
-            <input type="radio" id="yes" name="VisitAgain" value="yes">
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="VisitAgain" value="no">
-            <label for="no">No</label>
-
-            <div>
-                <!-- Ask Proffesion via select -->
-
-                <label for="Proffesion">Select your current Proffesion : </label>
-                <select name="Proffesion" id="Proffesion">
-                    <option value="None">No Work</option>
-                    <option value="Student">School Student</option>
-                    <option value="College">College Student</option>
-                    <option value="employee">Employee</option>
-                    <option value="hiring">Hiring Developers</option>
-                    <option value="boss">Boss</option>
-                    <option value="other">Other</option>
+                
 
 
-                </select>
-            </div>
+            </ul>
+        <div>
 
-            <div>
-                <!-- checkbox for acceptance -->
-                <input type="checkbox" name="accept" id="accept" value="yes">
-                <label for="accept">I accept that I will type Funny and Useless sentences in the Feedback.</label>
-            </div>
-
-            <div>
-                <!-- Adding main feedback comment input box -->
-                <textarea name="textarea" id="textarea" rows="15" cols="50"
-                    placeholder="Enter your Feedback Here"></textarea>
-            </div>
-        </form>
-
-
-
+        </div>
     </main>
 
-    <footer>
-        &copy; 2026 Naman Chhabra | MIT License
+    <footer id="footer">
+        <div>
+            <img id="banner"
+                src="https://raw.githubusercontent.com/NamanChhabra21/NamanChhabra21/refs/heads/main/assets/quote-banner.svg"
+                alt="Tagline">
+        </div>
+        <div>
+            &copy; 2026 Naman Chhabra | MIT License
+        </div>
+
     </footer>
 
 
 </body>
 
-</html>>
+</html>
