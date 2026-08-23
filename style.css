@@ -151,6 +151,10 @@ body {
         color: rgb(0, 153, 255);
         text-shadow: 2px 3px 11px rgb(0, 89, 255);
     }
+    li span a{
+        color: rgb(0, 89, 255);
+        text-decoration: none;
+    }
 
 }
 
