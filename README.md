@@ -4,11 +4,11 @@ This is my future introductory website. I will use this repository to push every
 
 I am learning Full-Stack Development via a course, and I have committed to creating my own self-introduction website from scratch.
 
-One rule: I will not use AI to develop or enhance this website. Everything will be built  by me.
+One rule: I will not use AI to develop or enhance this website. Everything except images/videos will be built  by me.
 
 ### Course Progress
 ![HTML](https://img.shields.io/badge/HTML-82%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-52%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-66%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-47%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
