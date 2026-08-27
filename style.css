@@ -127,6 +127,10 @@ body {
 /* Responsive for Mobile */
 @media only screen and (max-width: 768px) {
 
+    body{
+        background-image: url("https://i.pinimg.com/originals/26/94/0d/26940d1bdb5e82a5d32845f31a0ade1f.gif");
+    }
+
     .intro-section {
         flex-direction: column-reverse;
         text-align: center;
@@ -155,10 +159,8 @@ body {
         img {
             padding: 0;
             margin: 0;
-            width: 50px;
-            visibility: visible;
-            border-radius: 50px;
-            box-shadow: 2px 2px 20px blue;
+            width: 40px;
+            visibility: visible
         }
     }
 }
