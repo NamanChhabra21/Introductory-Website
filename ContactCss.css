@@ -1,0 +1,179 @@
+:root {
+    --color: rgb(153, 0, 255);
+    --color2: rgb(153, 0, 255);
+    --color3: rgba(153, 0, 255, 0.438);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: beige;
+
+}
+body {
+    background-image: url("https://i.pinimg.com/originals/34/1e/80/341e800b1f29d3e34ea2eba5a6af205c.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: fixed; */
+    min-height: 100vh;
+}
+
+.name {
+    overflow: hidden;
+    padding: 2px 10px;
+    font-size: 25px;
+    color: rgb(153, 0, 255);
+    text-shadow: 2px 2px 50px purple;
+
+}
+
+#more {
+    display: none;
+}
+
+.sticky-nav {
+
+    position: sticky;
+    box-shadow: 1px 2px 13px var(--color3);
+    background-color: black;
+    height: 50px;
+    align-self: start;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 2vw;
+}
+
+#tabs {
+    display: inline-flex;
+
+
+    list-style: none;
+
+    background-color: rgba(0, 0, 0, 0.35);
+
+    /* text-shadow: 0 0 10px var(--color2); */
+
+    font-size: 16px;
+    gap: 8vw;
+    margin: 0;
+    padding: 1vw 2vw;
+    margin-right: 2vw;
+
+}
+
+/* Footer */
+#footer {
+
+    #banner {
+        width: 90vw;
+        align-items: center;
+        position: relative;
+        align-self: center;
+        padding-top:100px;
+        padding-bottom:25px;
+    }
+
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+    margin-top: 40px;
+}
+
+/* MAIN CONTENT */
+main{
+    
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+
+}
+.container{
+    margin: 40px;
+    width: 750px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 20px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    img{
+        margin: 0px 0px 20px 5px;
+        width: 200px;
+        border-radius: 20px;
+    }
+}
+.right{
+    /* border: 1px solid black; */
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0px 0px 50px;
+}
+.form-label{
+    margin: 20px 0px 0px 0px ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    color:black;
+    border-radius: 2px;
+}
+.contact-heading{
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 10px 25px 10px;
+}
+.message{
+    margin: 0px 0px 20px 20px;
+    width:300px;
+}
+
+/* FOR MOBILE VIEW */
+@media only screen and (max-width: 800px) {
+    body{
+        background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xkd3U1bzJpdXU5dWRwbXBiaTg3aXd3cGdpbWxwNHhveDdtdG4zMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FizSVay8SBrEI/giphy.gif");
+    }
+    #tabs {
+        display: none;
+    }
+
+    #more {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+
+        img {
+           
+            width: 40px;
+        }
+    }
+
+    .container{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+}
