@@ -1,0 +1,172 @@
+:root {
+    --color: rgb(153, 0, 255);
+    --color2: rgb(153, 0, 255);
+    --color3: rgba(153, 0, 255, 0.438);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: beige;
+
+}
+
+body {
+    background-color: black;
+    background-image: url("https://github.com/NamanChhabra21/Introductory-Website/blob/main/Assets/Background.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: fixed; */
+    min-height: 100vh;
+}
+
+.name {
+    overflow: hidden;
+    padding: 2px 10px;
+    font-size: 25px;
+    color: rgb(153, 0, 255);
+    text-shadow: 2px 2px 50px purple;
+
+}
+
+#more {
+    display: none;
+}
+
+.sticky-nav {
+
+    position: sticky;
+    box-shadow: 1px 2px 13px var(--color3);
+    background-color: black;
+    height: 50px;
+    align-self: start;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 2vw;
+}
+
+#tabs {
+    display: inline-flex;
+
+
+    list-style: none;
+
+    background-color: rgba(0, 0, 0, 0.35);
+
+    /* text-shadow: 0 0 10px var(--color2); */
+
+    font-size: 16px;
+    gap: 8vw;
+    margin: 0;
+    padding: 1vw 2vw;
+    margin-right: 2vw;
+
+}
+
+
+
+
+/* Footer */
+#footer {
+
+    #banner {
+        width: 90vw;
+        align-items: center;
+        position: relative;
+        align-self: center;
+        padding-top:100px;
+        padding-bottom:25px;
+    }
+
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+    margin-top: 40px;
+}
+
+/* FOR MOBILE VIEW */
+@media only screen and (max-width: 600px) {
+    
+    #tabs {
+        display: none;
+    }
+
+    #more {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+
+        img {
+           
+            width: 40px;
+        }
+    }
+
+
+
+}
+
+/* Under Consturction Label */
+.fixed_label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: red;
+    padding: 5px 10px;
+    border: 3px solid red;
+    border-radius: 10px;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px red;
+}
+
+.hire_me_heading {
+    display: inline-flex;
+    font-size: 4vw;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: red;
+    text-shadow: 2px 2px 10px var(--color3);
+}
+.hire_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hire_me_message{
+    font-size: 2vw;
+    margin: 40px;
+}
+.ptr_list span{
+    color: red;
+    font-size: 2vw;
+}
+.ptr_list{
+    background-color: black;
+    padding:20px
+}
+.right_items{
+    margin-top:40px;
+    margin-right:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
