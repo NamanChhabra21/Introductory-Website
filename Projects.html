@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Naman Chhabra</title>
-    <link rel="stylesheet" href="ProjectCss.css?v=10">
+    <link rel="stylesheet" href="ProjectCss.css?v=11">
+    <link rel="stylesheet" href="CommonCSS.css">
     <meta name="description"
         content="Check out my projects! I am Naman Chhabra, a Full Stack Developer having keen interest in making Games, Websites, Desktop Applications and publish them to platforms like GitHub, Youtube etc.">
 </head>
@@ -42,12 +43,30 @@
 
         </div>
         <div id="more" class="m">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2r9JM4xT8-2S0aaMkO0lviqcwJe-pGV-UNnBJeBUEew&s=10" alt="Menu">
+            <img id="more-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2r9JM4xT8-2S0aaMkO0lviqcwJe-pGV-UNnBJeBUEew&s=10"
+                alt="Menu">
         </div>
 
     </nav>
 
     <main>
+        <!-- MOBILE VIEW TABS -->
+        <div id="mobile-view-tabs" class="mobile-tabs">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="Hire.html">Hire Me</a>
+                </li>
+            </ul>
+        </div>
         <div id="projects-container">
             <div id="project1" class="project">
                 <img src="https://repository-images.githubusercontent.com/1244427700/e73cb1b5-4688-4df5-885d-f5ebd25803f1"
@@ -82,7 +101,8 @@
                 </div>
 
                 <h2>Starfall-Protocol</h2>
-                <h4>An UNENDING 2D rocket Game created with Pygame. Featuring custom music, graphics, and keyboard controls. Contains Starting and Ending scene as Videos.</h4>
+                <h4>An UNENDING 2D rocket Game created with Pygame. Featuring custom music, graphics, and keyboard
+                    controls. Contains Starting and Ending scene as Videos.</h4>
                 <div class="read_more">
                     <h3><a href="https://github.com/NamanChhabra21/Starfall-Protocol">Read More</a></h3>
                 </div>
@@ -90,33 +110,32 @@
 
             <div id="project3" class="project">
                 <img src="https://repository-images.githubusercontent.com/1273933659/f93f9a51-ec4d-4b0b-9d3d-2ca2d85a39ee"
-                    alt="StarfallProtocol-Thumbnail">
+                    alt="NotVirues-Thumbnail">
 
                 <div class="image-tags">
                     <ul>
                         <li>Python</li>
                         <li>Simulation</li>
-                       
+
                     </ul>
                 </div>
 
                 <h2>Not-Virues</h2>
-                <h4>The name says Everything. <br> <span style="color: red; background-color: black;"> This program is designed to look and behave like a virus for entertainment purposes. It does not damage files, steal data, install malware, or perform any malicious actions. </span></h4>
+                <h4>The name says Everything.</h4>
                 <div class="read_more">
                     <h3><a href="https://github.com/NamanChhabra21/Not-Virues">Read More</a></h3>
                 </div>
             </div>
 
             <div id="project4" class="project">
-                <img src="Assets/Thumbnail.png"
-                    alt="StarfallProtocol-Thumbnail">
+                <img src="Assets/Thumbnail.png" alt="IntroductoryWebsite-Thumbnail">
 
                 <div class="image-tags">
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
-                       
+
                     </ul>
                 </div>
 
@@ -126,8 +145,28 @@
                     <h3><a href="https://github.com/NamanChhabra21/Introductory-Website">Read More</a></h3>
                 </div>
             </div>
-        
-        <span class="fixed_label">🔨 Under Construction</span>
+
+            <div id="project5" class="project">
+                <img src="https://repository-images.githubusercontent.com/1413650262/00f74e1f-0b72-47bc-b877-d30a8bb5a939"
+                    alt="blankBot-Thumbnail">
+
+                <div class="image-tags">
+                    <ul>
+                        <li>Python</li>
+                        <li>Groq API</li>
+                        <li>AI</li>
+
+                    </ul>
+                </div>
+
+                <h2>blankBot</h2>
+                <h4>A simple Desktop ChatBot made using Tkinter and Groq API. Designed to provide quick, non-serious,
+                    and sometimes rocking responses through a lightweight desktop GUI.</h4>
+                <div class="read_more">
+                    <h3><a href="https://github.com/NamanChhabra21/blankBot">Read More</a></h3>
+                </div>
+            </div>
+            <span class="fixed_label">🔨 Under Construction</span>
         </div>
     </main>
 
@@ -142,7 +181,7 @@
         </div>
 
     </footer>
-
+    <script src="Common.js"></script>
 </body>
 
 </html>
