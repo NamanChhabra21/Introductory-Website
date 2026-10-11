@@ -19,7 +19,10 @@ body {
     /* background-position: fixed; */
     min-height: 100vh;
 }
-
+main{
+    display:flex;
+    flex-direction: column;
+}
 .name {
     overflow: hidden;
     padding: 2px 10px;
@@ -44,6 +47,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    z-index:99999;
 
 }
 
@@ -77,14 +82,7 @@ body {
 /* Footer */
 #footer {
 
-    #banner {
-        width: 90vw;
-        align-items: center;
-        position: relative;
-        align-self: center;
-        padding-top:100px;
-        padding-bottom:25px;
-    }
+    
 
     /* background-color: black; */
     color: white;
@@ -92,7 +90,14 @@ body {
     font-size: 1.8vw;
     margin-top: 40px;
 }
-
+#banner {
+        width: 90vw;
+        align-items: center;
+        position: relative;
+        align-self: center;
+        padding-top:100px;
+        padding-bottom:25px;
+    }
 /* MAIN CONTENT */
 main{
     
@@ -118,13 +123,15 @@ main{
     align-items: center;
     flex-direction: column;
     
-    
-    img{
+}
+.left img{
         margin: 0px 0px 20px 5px;
         width: 200px;
         border-radius: 20px;
+        box-shadow: 0px 0px 40px var(--color3);
+        animation: ColorChangeShadow 3s ease-in 0.1ms infinite
+        
     }
-}
 .right{
     /* border: 1px solid black; */
     display: inline-flex;
@@ -137,6 +144,8 @@ main{
     margin: 20px 0px 5px 0px ;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    animation: Float 3s ease-in 0.1ms infinite, ColorChange 3s ease-in 0.1ms infinite;
+   
 }
 
 
@@ -148,6 +157,8 @@ main{
     height: 30px;
     border: 1px solid var(--color2);
     box-shadow: 0px 0px 15px var(--color3);
+
+    animation: Float 3s ease-in 0.1ms infinite;
     
 }
 .input:focus{
@@ -159,6 +170,9 @@ main{
 .submit-btn{
     display: flex;
     align-self: center;
+
+    animation: Bounce 2s ease-in 0ms infinite;
+    
 }
 
 #submit-btn:hover{
@@ -190,6 +204,8 @@ main{
     font-size: 38px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 30px 10px 25px 10px;
+
+    animation: ColorChange 3s ease-in 0.1ms infinite;
 }
 .message{
     margin: 0px 0px 20px 20px;
@@ -203,7 +219,7 @@ main{
 
 
 /* FOR MOBILE VIEW */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     body{
         background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xkd3U1bzJpdXU5dWRwbXBiaTg3aXd3cGdpbWxwNHhveDdtdG4zMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FizSVay8SBrEI/giphy.gif");
     }
@@ -256,4 +272,76 @@ main{
     font-size: 14px;
     z-index: 1000;
     box-shadow: 0px 0px 10px red;
+}
+
+@keyframes Bounce{
+    10%{
+        transform: translateX(-200px);
+    }
+    20%{
+        transform: translateX(0px);
+    }
+    30%{
+        transform: translateX(200px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-800px);
+    }
+    60%{
+        transform: translateX(0px);
+    }
+    70%{
+        transform: translateY(600px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+    90%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes Float{
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes ColorChange{ 
+    20%{
+        color: rgb(255, 0, 200);
+    }
+
+    60%{
+        color: rgb(153, 0, 255);
+    }
+
+    100%{
+        color: white;
+    }
+
+}
+
+@keyframes ColorChangeShadow{ 
+    20%{
+        box-shadow: 0px 0px 40px var(--color);
+    }
+
+    60%{
+        box-shadow: 0px 0px 40px var(--color2);
+    }
+
+    100%{
+        box-shadow: 0px 0px 40px var(--color3);
+    }
+
 }
