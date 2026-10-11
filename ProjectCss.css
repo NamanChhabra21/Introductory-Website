@@ -127,13 +127,7 @@ body {
 
     }
 
-    h2 {
-        margin-left: 10px;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 0;
-    }
-
+    
     h4 {
         line-height: 20px;
         color: rgb(255, 217, 0);
@@ -171,6 +165,14 @@ body {
     }
 
 }
+.project h2 {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+}
+
 .project:hover{
     box-shadow: 0px 0px 20px rgb(68, 0, 255);
 }
@@ -196,10 +198,10 @@ body {
 }
 
 /* FOR MOBILE VIEW */
-@media only screen and (max-width: 600px) {
-    body{
+@media only screen and (max-width: 640px) {
+    /* body{
         background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xkd3U1bzJpdXU5dWRwbXBiaTg3aXd3cGdpbWxwNHhveDdtdG4zMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FizSVay8SBrEI/giphy.gif");
-    }
+    } */
     #tabs {
         display: none;
     }
