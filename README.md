@@ -8,7 +8,7 @@ One rule: I will not use AI to develop or enhance this website. Everything excep
 
 ### Course Progress
 ![HTML](https://img.shields.io/badge/HTML-100%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-77%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-100%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-63%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
